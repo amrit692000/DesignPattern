@@ -11,9 +11,9 @@
             var colorDecorator = new ColorDecorator(component);
 
             
-            Console.WriteLine("Plain Decorator: " + plainDecorator.GetText());
-            Console.WriteLine("Upper Case Decorator: " + upperCaseDecorator.GetText());
-            Console.WriteLine("Color Decorator: " + colorDecorator.GetText());
+            Console.WriteLine("" + plainDecorator.GetText());
+            Console.WriteLine("" + upperCaseDecorator.GetText());
+            Console.WriteLine("" + colorDecorator.GetText());
         }
     }
 
